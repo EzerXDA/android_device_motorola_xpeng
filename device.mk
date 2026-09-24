@@ -100,6 +100,9 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/thermal-engine-xpeng-game-perf.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-xpeng.conf
 
+# Dolby
+$(call inherit-product, hardware/dolby/dolby.mk)
+
 # Touch HAL
 PRODUCT_PACKAGES += \
     vendor.lineage.touch-service.motorola

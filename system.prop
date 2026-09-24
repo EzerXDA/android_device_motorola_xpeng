@@ -1,0 +1,5 @@
+TARGET_CUSTOM_UDFPS := false
+WITH_GMS := true
+USE_REALITY_ENGINE := false
+SURFACE_FLINGER_BOOST := false
+ro.lunaris.maintainer=EzerMod

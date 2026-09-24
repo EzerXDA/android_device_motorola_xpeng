@@ -22,8 +22,13 @@ PRODUCT_MODEL := moto g200 5G
 
 PRODUCT_GMS_CLIENTID_BASE := android-motorola
 
-ro.lunaris.maintainer=EzerMod
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="xpeng_g-user 12 S1RXS32.50-13-25 5fb68-c44485 release-keys" \
     BuildFingerprint=motorola/xpeng_g/xpeng:12/S1RXS32.50-13-25/5fb68-c44485:user/release-keys \
     DeviceProduct=xpeng_retail
+
+TARGET_CUSTOM_UDFPS := false
+WITH_GMS := true
+USE_REALITY_ENGINE := false
+SURFACE_FLINGER_BOOST := false
+ro.lunaris.maintainer=EzerMod

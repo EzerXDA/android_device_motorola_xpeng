@@ -115,3 +115,6 @@ ODM_MANIFEST_N_FILES := \
 
 # Inherit from vendor blobs
 $(call inherit-product, vendor/motorola/xpeng/xpeng-vendor.mk)
+
+# Dolby
+$(call inherit-product, hardware/dolby/dolby.mk)
